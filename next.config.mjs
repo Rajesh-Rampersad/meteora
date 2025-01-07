@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // output: "export",
-  // // assetPrefix: '/out',
-  // trailingSlash: true,
+  // assetPrefix: '/out',
+  trailingSlash: true,
 
   images: {
     loader: "custom",
