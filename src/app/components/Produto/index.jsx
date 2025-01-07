@@ -23,12 +23,9 @@ const Produto = ({ produto }) => {
             height={422}
             src={produto.imageSrc}
             alt={produto.nome}
-            // className={styles.productImage}
+            className={styles.productImage}
           />
-          {/* <img src={produto.imageSrc}
-           alt={produto.nome}
-           width={350}
-           height={422} /> */}
+      
         </div>
         <div className={styles.info}>
           <h1 className={styles.title}>{produto.nome}</h1>
